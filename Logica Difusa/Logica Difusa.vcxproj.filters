@@ -13,5 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de encabezado\Grafica">
+      <UniqueIdentifier>{e4c01605-72d2-451c-b918-0d1401806c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Grafica">
+      <UniqueIdentifier>{5f85e5f0-b224-46f4-974a-38b21e73cb7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Grafica.h">
+      <Filter>Archivos de encabezado\Grafica</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Grafica.cpp">
+      <Filter>Archivos de origen\Grafica</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
